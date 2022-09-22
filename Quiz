@@ -1,0 +1,206 @@
+	Feito por Miguel Giovanne
+  
+  package Quiz;
+
+	import java.util.Scanner;
+
+	public class Quiz {
+		
+		//Tema: Conhecimentos gerais
+		public static void main(String[] args) {
+			Scanner sc = new Scanner(System.in);
+			
+		    
+			System.out.println("Digite seu nome:");
+			String nome = sc.next();
+			System.out.println("Insira sua idade:");
+			int idade = sc.nextInt();
+			
+			
+			System.out.println("\nA De quem é a famosa frase “Penso, logo existo”? \n");
+			System.out.println("1 - Platão\n2 -Sócrates\n3 - Descartes\n4 - Galileu Galilei");
+			int q1 = sc.nextInt();
+			
+			
+			while(q1 <1 || q1 >4) {
+				System.out.println("Alternativa invalida!");
+				System.out.println("Tente novamente:");
+				q1 = sc.nextInt();
+			}
+			
+			
+			if(q1 == 3) {
+				System.out.println("Correto!");
+			}else {
+				System.out.println("Errado!");
+			}
+			
+			System.out.println("\nI De onde é a invenção do chuveiro elétrico?");
+			System.out.println("1 - França\n2 - Austrália\n3 - Brasil\n4 -Itália\n");
+			int q2 = sc.nextInt();
+			
+			
+			while(q2 <1 || q2 >4) {
+				System.out.println("Alternativa Incorreta!");
+				System.out.println("Tente novamente:");
+				q2 = sc.nextInt();
+			}
+			
+		
+			if(q2 == 3) {
+				System.out.println("Correto!");
+			}else {
+				System.out.println("Errado!");
+			}
+			
+			
+			System.out.println("\nI Qual o nome do presidente do Brasil que ficou conhecido como Jango? ");
+			System.out.println("1 - João Goulart\n2 - Jacinto Anjos\n3 - Getúlio Vargas.\n4 - João Figueiredo\n");
+			int q3 = sc.nextInt();
+			
+			
+			while(q3 <1 || q3 >4) {
+				System.out.println("Alternativa Incorreta!");
+				System.out.println("Tente novamente:");
+				q3 = sc.nextInt();
+			}
+			
+			
+			if(q3 == 1) {
+				System.out.println("Correto!");
+			}else {
+				System.out.println("Errado!");
+			}
+			
+			
+			System.out.println("\nI. Qual o grupo em que todas as palavras foram escritas corretamente?");
+			System.out.println("1 - Asterístico, beneficiente, meteorologia, entertido\n2 -  Asterisco, beneficente, metereologia, entretido\n3 - Asterístico, beneficiente, metereologia, entretido\n4 - Asterisco, beneficente, meteorologia, entretido\n");
+			int q4 = sc.nextInt();
+			
+			
+			while(q4 <1 || q4 >4) {
+				System.out.println("Alternativa Incorreta!");
+				System.out.println("Tente novamente:");
+				q4 = sc.nextInt();
+			}
+			
+			
+			if(q4 == 4) {
+				System.out.println("Correto!");
+			}else {
+				System.out.println("Errado!");
+			}
+			
+			
+			System.out.println("\nI. Atualmente, quantos elementos químicos a tabela periódica possui?");
+			System.out.println("1 - 109\n2 - 108 \n3 - 118\n4 - 113\n");
+			int q5 = sc.nextInt();
+			
+			
+			while(q5 <1 || q5 >4) {
+				System.out.println("Alternativa Incorreta!");
+				System.out.println("Tente novamente:");
+				q5 = sc.nextInt();
+			}
+			
+			
+			if(q5 == 3) {
+				System.out.println("Correto!");
+			}else {
+				System.out.println("Errado!");
+			}
+			
+			
+			System.out.println("\nI. Quais os países que têm a maior e a menor expectativa de vida do mundo?");
+			System.out.println("1 -  Austrália e Afeganistão\n2 - Japão e Serra Leoa\n3 - Itália e Chade\n4 - Estados Unidos e Angola\n");
+			int q6 = sc.nextInt();
+			
+			
+			while(q6 <1 || q6 >4) {
+				System.out.println("Alternativa Incorreta!");
+				System.out.println("Tente novamente:");
+				q6 = sc.nextInt();
+			}
+			
+			
+			if(q6 == 2) {
+				System.out.println("Correto!");
+			}else {
+				System.out.println("Errado!");
+			}
+			
+			
+			System.out.println("\nI. Quem pintou \"Guernica\"?");
+			System.out.println("1 - Tarsila do Amaral\n2 - Paul Cézanne\n3 - Salvador Dalí\n4 - Pablo Picasso\n");
+			int q7 = sc.nextInt();
+			
+			
+			while(q7 <1 || q7 >4) {
+				System.out.println("Alternativa Incorreta!");
+				System.out.println("Tente novamente:");
+				q7 = sc.nextInt();
+			}
+			
+			
+			if(q7 == 4) {
+				System.out.println("Correto!");
+			}else {
+				System.out.println("Errado!");
+			}
+			
+			
+			System.out.println("\nI. Quais são os três predadores do reino animal reconhecidos pela habilidade de caçar em grupo, se camuflar para surpreender as presas e possuir sentidos apurados, respectivamente: ");
+			System.out.println("1 - Tubarão branco, crocodilo e sucuri\n2 - Orca, onça e tarântula\n3 - Hiena, urso branco e lobo cinzento\n4 - Leão, tubarão branco e urso cinzento\n");
+			int q8 = sc.nextInt();
+			
+
+			while(q8 <1 || q8 >4) {
+				System.out.println("Alternativa Incorreta!");
+				System.out.println("Tente novamente:");
+				q8 = sc.nextInt();
+			}
+			
+			if(q8 == 3) {
+				System.out.println("Correto!");
+			}else {
+				System.out.println("Errado!");
+			}
+			
+			System.out.println("\nI Como é a conjugação do verbo caber na 1.ª pessoa do singular do presente do indicativo?");
+			System.out.println("1 - Eu caibo\n2 - Que eu caiba\n3 - Eu cabo\n4 - Nenhuma das alternativas\n");
+			int q9 = sc.nextInt();
+			
+			while(q9 <1 || q9 >4) {
+				System.out.println("Alternativa invalida!");
+				System.out.println("Tente novamente:");
+				q9 = sc.nextInt();
+			}
+			
+			if(q9 == 1) {
+				System.out.println("Correto!");
+			}else {
+				System.out.println("Errado!");
+			}
+			
+			System.out.println("\nI Qual foi o recurso utilizado inicialmente pelo homem para explicar a origem das coisas?");
+			System.out.println("1 - A Matemática\n2 -A Astronomia\n3 - A Mitologia\n4 - A Filosofia\n");
+			int q10 = sc.nextInt();
+			
+			while(q10 <1 || q10 >4) {
+				System.out.println("Alternativa Incorreta!");
+				System.out.println("Tente novamente:");
+				q10 = sc.nextInt();
+			}
+			
+			if(q10 == 3) {
+				System.out.println("Correto!");
+			}else {
+				System.out.println("Errado!");
+			}
+			
+			System.out.println("Obrigado por responder nosso quiz "+nome+"!");
+			
+			sc.close();
+		}
+
+	}
